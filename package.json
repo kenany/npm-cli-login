@@ -7,6 +7,15 @@
     "npm-cli-login": "./bin/npm-cli-login.js"
   },
   "repository": "github:kenany/npm-cli-login",
+  "files": [
+    "bin",
+    "lib",
+    "index.js",
+    "LICENSE.txt"
+  ],
+  "engines": {
+    "node": "10 || 12 || >=14"
+  },
   "scripts": {
     "test": "mocha tests"
   },
