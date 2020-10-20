@@ -13,7 +13,7 @@
   "author": "Postman Team <help@getpostman.com>",
   "license": "Apache-2.0",
   "dependencies": {
-    "npm-registry-client": "8.6.0"
+    "npm-registry-client": "^8.6.0"
   },
   "devDependencies": {
     "@kenan/renovate-config": "^1.4.0",
