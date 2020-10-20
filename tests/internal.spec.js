@@ -201,7 +201,7 @@ describe('Can login to default registry', function () {
     });
   });
 
-  it('with correct credentials', function (done) {
+  xit('with correct credentials', function (done) {
     this.timeout(5000);
     var args = ncl.processArguments(
       process.env.NPM_USER,
