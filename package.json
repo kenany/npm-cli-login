@@ -23,6 +23,7 @@
     "snyk": "^1.124.1"
   },
   "devDependencies": {
+    "@kenan/renovate-config": "^1.4.0",
     "chai": "^3.5.0",
     "jscs": "^3.0.7",
     "jshint": "^2.9.1",
