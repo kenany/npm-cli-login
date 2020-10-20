@@ -20,9 +20,7 @@ var testData = {
 
 describe('Can handle', function () {
   it('missing username', function () {
-    expect(function () {
-      nclWrapper();
-    }).to.throw();
+    expect(nclWrapper).to.throw();
   });
 
   it('missing password', function () {
@@ -209,6 +207,7 @@ describe('Can login to default registry', function () {
       process.env.NPM_EMAIL
     );
     ncl.login(args, function (err, data) {
+      expect(err).to.be.null();
       expect(data).to.have.property('ok', true);
       expect(data).to.have.property('token');
       done();
