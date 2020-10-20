@@ -8,7 +8,7 @@
   },
   "repository": "github:kenany/npm-cli-login",
   "scripts": {
-    "test": "./scripts/test.sh"
+    "test": "mocha tests"
   },
   "author": "Postman Team <help@getpostman.com>",
   "license": "Apache-2.0",
