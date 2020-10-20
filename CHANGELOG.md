@@ -1,3 +1,10 @@
+### [1.0.1](https://github.com/kenany/npm-cli-login/compare/v1.0.0...v1.0.1) (2020-10-20)
+
+
+### Bug Fixes
+
+* allow publishing to public registry ([f7d7ec6](https://github.com/kenany/npm-cli-login/commit/f7d7ec6e6fadedcf003ffc56a68bbdf379a175c6))
+
 ## [1.0.0](https://github.com/kenany/npm-cli-login/compare/v0.1.1...v1.0.0) (2020-10-20)
 
 
