@@ -17,6 +17,7 @@
     "node": "10 || 12 || >=14"
   },
   "scripts": {
+    "release": "semantic-release",
     "test": "mocha tests"
   },
   "author": "Postman Team <help@getpostman.com>",
