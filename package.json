@@ -1,7 +1,7 @@
 {
   "name": "@kenan/npm-cli-login",
   "version": "0.1.1",
-  "description": "",
+  "description": "Fork of npm-cli-login",
   "main": "index.js",
   "bin": {
     "npm-cli-login": "./bin/npm-cli-login.js"
