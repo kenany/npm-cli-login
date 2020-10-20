@@ -8,20 +8,16 @@
   },
   "repository": "github:kenany/npm-cli-login",
   "scripts": {
-    "test": "./scripts/test.sh",
-    "snyk-protect": "snyk protect",
-    "prepare": "npm run snyk-protect"
+    "test": "./scripts/test.sh"
   },
   "author": "Postman Team <help@getpostman.com>",
   "license": "Apache-2.0",
   "dependencies": {
-    "npm-registry-client": "8.6.0",
-    "snyk": "^1.124.1"
+    "npm-registry-client": "8.6.0"
   },
   "devDependencies": {
     "@kenan/renovate-config": "^1.4.0",
     "chai": "^3.5.0",
     "mocha": "^5.2.0"
-  },
-  "snyk": true
+  }
 }
