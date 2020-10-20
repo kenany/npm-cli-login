@@ -18,6 +18,6 @@
   "devDependencies": {
     "@kenan/renovate-config": "^1.4.0",
     "chai": "^3.5.0",
-    "mocha": "^5.2.0"
+    "mocha": "^8.2.0"
   }
 }
