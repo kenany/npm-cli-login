@@ -1,3 +1,10 @@
+### [1.0.2](https://github.com/kenany/npm-cli-login/compare/v1.0.1...v1.0.2) (2020-11-05)
+
+
+### Bug Fixes
+
+* **deps:** npm-profile@5.0.2 ([8b5ed27](https://github.com/kenany/npm-cli-login/commit/8b5ed27dd153e3e4697363e279fe5e519d44b496))
+
 ### [1.0.1](https://github.com/kenany/npm-cli-login/compare/v1.0.0...v1.0.1) (2020-10-20)
 
 
