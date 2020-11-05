@@ -21,7 +21,7 @@ jobs:
       uses: bahmutov/npm-install@v1.4.4
       with:
         useLockFile: false
-    - name: npm ls
-      run: npm ls
+    - run: npm ls
+      continue-on-error: true
     - name: Test
       run: npm test
