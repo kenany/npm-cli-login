@@ -29,7 +29,7 @@
     "npm-profile": "^5.0.2"
   },
   "devDependencies": {
-    "@kenan/renovate-config": "^1.4.0",
+    "@kenan/renovate-config": "^1.5.0",
     "@semantic-release/changelog": "^5.0.1",
     "@semantic-release/git": "^9.0.0",
     "chai": "^4.2.0",
