@@ -1,3 +1,15 @@
+## [2.0.0](https://github.com/kenany/npm-cli-login/compare/v1.0.4...v2.0.0) (2021-06-03)
+
+
+### ⚠ BREAKING CHANGES
+
+* **ci:** Node.js v10 is no longer supported. Node.js v12 is now
+the minimum supported version.
+
+### Features
+
+* **ci:** test on Node.js v16, remove Node.js v10 support ([cef6b75](https://github.com/kenany/npm-cli-login/commit/cef6b75fd00a042bdfa0dca0e3a64d1047d9fd7e))
+
 ### [1.0.4](https://github.com/kenany/npm-cli-login/compare/v1.0.3...v1.0.4) (2021-06-03)
 
 
