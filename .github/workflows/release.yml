@@ -11,13 +11,12 @@ jobs:
       - name: Node.js
         uses: actions/setup-node@v2.1.5
         with:
-          node-version: 12
+          node-version: 14
       - name: Update npm
         run: |
           npm install -g npm
           npm --version
       - uses: actions/checkout@v2.3.4
-
       - name: Install dependencies
         uses: bahmutov/npm-install@v1.7.4
         with:
