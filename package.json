@@ -30,11 +30,11 @@
   },
   "devDependencies": {
     "@kenan/renovate-config": "^1.5.1",
-    "@semantic-release/changelog": "^5.0.1",
-    "@semantic-release/git": "^9.0.1",
+    "@semantic-release/changelog": "^6.0.0",
+    "@semantic-release/git": "^10.0.0",
     "chai": "^4.3.4",
     "conventional-changelog-conventionalcommits": "^4.6.1",
     "mocha": "^9.1.2",
-    "semantic-release": "^17.4.7"
+    "semantic-release": "^18.0.0"
   }
 }
