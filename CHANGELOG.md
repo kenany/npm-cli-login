@@ -1,3 +1,10 @@
+### [2.0.3](https://github.com/kenany/npm-cli-login/compare/v2.0.2...v2.0.3) (2022-02-17)
+
+
+### Bug Fixes
+
+* **deps:** npm-profile@6.0.2 ([8353609](https://github.com/kenany/npm-cli-login/commit/8353609172680d6e9dfc48efd55269f7ab0b04b0))
+
 ### [2.0.2](https://github.com/kenany/npm-cli-login/compare/v2.0.1...v2.0.2) (2022-02-15)
 
 
