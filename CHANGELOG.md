@@ -1,3 +1,14 @@
+## [3.0.0](https://github.com/kenany/npm-cli-login/compare/v2.0.5...v3.0.0) (2022-06-20)
+
+
+### ⚠ BREAKING CHANGES
+
+* Node.js v12 is no longer supported.
+
+### Features
+
+* drop Node.js v12 support ([4915faf](https://github.com/kenany/npm-cli-login/commit/4915fafcbdb8543fcef0f95ab2c3f8f0d463a90b))
+
 ## [2.0.5](https://github.com/kenany/npm-cli-login/compare/v2.0.4...v2.0.5) (2022-06-20)
 
 
