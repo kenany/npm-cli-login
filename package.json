@@ -1,6 +1,6 @@
 {
   "name": "@kenan/npm-cli-login",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "Fork of npm-cli-login",
   "author": "Postman Team <help@getpostman.com>",
   "license": "Apache-2.0",
