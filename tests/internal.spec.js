@@ -18,6 +18,8 @@ var testData = {
   }
 }
 
+var testDataRegistryWithTrailingSlash = 'https://artifactory.company.com/artifactory/api/npm/npm-registry/';
+
 describe('Can handle', function () {
   it('missing username', function () {
     expect(nclWrapper).to.throw();
@@ -60,6 +62,11 @@ describe('Can resolve', function () {
   it('custom registry', function () {
     var args = ncl.processArguments(testData.username, testData.password, testData.email, testData.registry);
     expect(args).to.have.property('registry', testData.registry);
+  });
+
+  it('custom registry with trailing slash', function () {
+    var args = ncl.processArguments(testData.username, testData.password, testData.email, testDataRegistryWithTrailingSlash);
+    expect(args).to.have.property("registry", testDataRegistryWithTrailingSlash);
   });
 
   it('default scope', function () {
@@ -117,12 +124,27 @@ describe('Can generate', function () {
     expect(toWrite).to.include('//npm.random.com/:_authToken=' + testData.response.token);
   });
 
+  it('file with custom registry (with trailing slash) but no scope', function () {
+    var args = ncl.processArguments(testData.username, testData.password, testData.email, testDataRegistryWithTrailingSlash);
+    var toWrite = ncl.generateFileContents(args, '', testData.response);
+    expect(toWrite).to.have.length(1)
+    expect(toWrite).to.include('//artifactory.company.com/artifactory/api/npm/npm-registry/:_authToken=' + testData.response.token);
+  });
+
   it('file with custom registry and custom scope', function () {
     var args = ncl.processArguments(testData.username, testData.password, testData.email, testData.registry, testData.scope);
     var toWrite = ncl.generateFileContents(args, '', testData.response);
     expect(toWrite).to.have.length(2)
     expect(toWrite).to.include('//npm.random.com/:_authToken=' + testData.response.token);
     expect(toWrite).to.include(testData.scope + ':registry=' + testData.registry);
+  });
+
+  it('file with custom registry (with trailing slash) and custom scope', function () {
+    var args = ncl.processArguments(testData.username, testData.password, testData.email, testDataRegistryWithTrailingSlash, testData.scope);
+    var toWrite = ncl.generateFileContents(args, '', testData.response);
+    expect(toWrite).to.have.length(2)
+    expect(toWrite).to.include('//artifactory.company.com/artifactory/api/npm/npm-registry/:_authToken=' + testData.response.token);
+    expect(toWrite).to.include(testData.scope + ':registry=' + testDataRegistryWithTrailingSlash);
   });
 });
 
