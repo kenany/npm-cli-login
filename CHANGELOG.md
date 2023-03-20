@@ -1,3 +1,10 @@
+## [3.0.3](https://github.com/kenany/npm-cli-login/compare/v3.0.2...v3.0.3) (2023-03-20)
+
+
+### Bug Fixes
+
+* fix custom registry with trailing slash ([8a413e2](https://github.com/kenany/npm-cli-login/commit/8a413e22bff99d6f72e04b797846df4f94f0b179))
+
 ## [3.0.2](https://github.com/kenany/npm-cli-login/compare/v3.0.1...v3.0.2) (2022-12-19)
 
 
