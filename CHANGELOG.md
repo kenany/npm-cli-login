@@ -1,3 +1,10 @@
+## [3.0.4](https://github.com/kenany/npm-cli-login/compare/v3.0.3...v3.0.4) (2023-05-10)
+
+
+### Bug Fixes
+
+* fix token destructuring ([51c5dd1](https://github.com/kenany/npm-cli-login/commit/51c5dd1d45bcac02ec233a0a1c703602467c9833))
+
 ## [3.0.3](https://github.com/kenany/npm-cli-login/compare/v3.0.2...v3.0.3) (2023-03-20)
 
 
