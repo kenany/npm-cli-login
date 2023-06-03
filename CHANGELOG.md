@@ -1,3 +1,10 @@
+## [3.0.5](https://github.com/kenany/npm-cli-login/compare/v3.0.4...v3.0.5) (2023-06-03)
+
+
+### Bug Fixes
+
+* include changelog in published package ([676d405](https://github.com/kenany/npm-cli-login/commit/676d40548a428d2a82c862837bd43d78c7ab8ccd))
+
 ## [3.0.4](https://github.com/kenany/npm-cli-login/compare/v3.0.3...v3.0.4) (2023-05-10)
 
 
