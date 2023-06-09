@@ -1,3 +1,11 @@
+## [3.0.6](https://github.com/kenany/npm-cli-login/compare/v3.0.5...v3.0.6) (2023-06-09)
+
+
+### Bug Fixes
+
+* **ci:** enable npm provenance ([8446d50](https://github.com/kenany/npm-cli-login/commit/8446d50bf748042bd98ae0791c552d1f3277dc31))
+* **ci:** fix publish job permissions ([7b46410](https://github.com/kenany/npm-cli-login/commit/7b464102d5452cb3d638c9382ac5755b2ecc30d5))
+
 ## [3.0.5](https://github.com/kenany/npm-cli-login/compare/v3.0.4...v3.0.5) (2023-06-03)
 
 
