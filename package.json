@@ -6,7 +6,8 @@
   "license": "Apache-2.0",
   "repository": "github:kenany/npm-cli-login",
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "provenance": true
   },
   "engines": {
     "node": "14 || 16 || 18 || >=20"
