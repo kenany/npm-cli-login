@@ -3,12 +3,17 @@ on:
   push:
     branches:
       - main
+permissions:
+  contents: read
 jobs:
   release:
     name: release
     runs-on: ubuntu-latest
     permissions:
+      contents: write
       id-token: write
+      issues: write
+      pull-requests: write
     steps:
       - name: Node.js
         uses: actions/setup-node@v3.6.0
@@ -23,6 +28,7 @@ jobs:
         uses: bahmutov/npm-install@v1.8.32
         with:
           useLockFile: false
+      - run: npm audit signatures
       - name: Release
         run: npm run release
         env:
