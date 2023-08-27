@@ -33,7 +33,7 @@
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
-    "chai": "^4.3.7",
+    "chai": "^4.3.8",
     "conventional-changelog-conventionalcommits": "^6.1.0",
     "mocha": "^10.2.0",
     "semantic-release": "^21.1.0"
