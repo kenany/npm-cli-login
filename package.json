@@ -10,7 +10,7 @@
     "provenance": true
   },
   "engines": {
-    "node": "14 || 16 || 18 || >=20"
+    "node": "18 || >=20"
   },
   "main": "index.js",
   "bin": {
@@ -28,7 +28,7 @@
     "test": "mocha tests"
   },
   "dependencies": {
-    "npm-profile": "^7.0.1"
+    "npm-profile": "^9.0.0"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.3",
@@ -36,6 +36,6 @@
     "chai": "^4.3.8",
     "conventional-changelog-conventionalcommits": "^6.1.0",
     "mocha": "^10.2.0",
-    "semantic-release": "^21.1.0"
+    "semantic-release": "^21.1.1"
   }
 }
