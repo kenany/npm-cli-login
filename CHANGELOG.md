@@ -1,3 +1,14 @@
+## [4.0.0](https://github.com/kenany/npm-cli-login/compare/v3.0.6...v4.0.0) (2023-09-11)
+
+
+### ⚠ BREAKING CHANGES
+
+* Node.js v14 and v16 are no longer supported.
+
+### Features
+
+* drop Node.js v14 and v16 ([c085f4a](https://github.com/kenany/npm-cli-login/commit/c085f4a634a2d5ab29fce5085117e2312da206f8))
+
 ## [3.0.6](https://github.com/kenany/npm-cli-login/compare/v3.0.5...v3.0.6) (2023-06-09)
 
 
