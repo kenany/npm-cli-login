@@ -28,7 +28,7 @@
     "test": "mocha tests"
   },
   "dependencies": {
-    "npm-profile": "^9.0.0"
+    "npm-profile": "^9.0.2"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.3",
