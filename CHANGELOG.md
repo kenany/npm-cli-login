@@ -1,3 +1,10 @@
+## [4.0.1](https://github.com/kenany/npm-cli-login/compare/v4.0.0...v4.0.1) (2024-05-08)
+
+
+### Bug Fixes
+
+* **deps:** npm-profile@9.0.2 ([b44aa7b](https://github.com/kenany/npm-cli-login/commit/b44aa7b4d60cad1cabbeb1b86aca39547ec54aed))
+
 ## [4.0.0](https://github.com/kenany/npm-cli-login/compare/v3.0.6...v4.0.0) (2023-09-11)
 
 
