@@ -2,11 +2,11 @@ name: nodejs
 on: [pull_request, push]
 jobs:
   build:
-    runs-on: ${{ matrix.os }}
+    runs-on: ubuntu-24.04
     strategy:
+      fail-fast: false
       matrix:
-        node-version: [18, 20]
-        os: [ubuntu-latest]
+        node-version: [20, 22, 24]
     steps:
     - name: Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v5.0.0
