@@ -1,3 +1,13 @@
+## [5.0.0](https://github.com/kenany/npm-cli-login/compare/v4.0.4...v5.0.0) (2025-09-08)
+
+### ⚠ BREAKING CHANGES
+
+* Node.js v18 is no longer supported.
+
+### Features
+
+* drop Node.js v18 support ([170b949](https://github.com/kenany/npm-cli-login/commit/170b949c440c96821c340463f7a0c5dfda7e7928))
+
 ## [4.0.4](https://github.com/kenany/npm-cli-login/compare/v4.0.3...v4.0.4) (2025-08-09)
 
 ### Bug Fixes
