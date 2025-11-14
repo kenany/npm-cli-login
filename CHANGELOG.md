@@ -1,3 +1,9 @@
+## [5.0.1](https://github.com/kenany/npm-cli-login/compare/v5.0.0...v5.0.1) (2025-11-14)
+
+### Bug Fixes
+
+* **deps:** npm-profile@12.0.1 ([ed0f017](https://github.com/kenany/npm-cli-login/commit/ed0f0170bb1e944a3ab2073c1bfc3fde40093eeb))
+
 ## [5.0.0](https://github.com/kenany/npm-cli-login/compare/v4.0.4...v5.0.0) (2025-09-08)
 
 ### ⚠ BREAKING CHANGES
