@@ -1,3 +1,9 @@
+## [5.0.2](https://github.com/kenany/npm-cli-login/compare/v5.0.1...v5.0.2) (2026-01-20)
+
+### Bug Fixes
+
+* set up trusted publishing ([b325be3](https://github.com/kenany/npm-cli-login/commit/b325be3b3febe0431363affe0426245b1948f2e6))
+
 ## [5.0.1](https://github.com/kenany/npm-cli-login/compare/v5.0.0...v5.0.1) (2025-11-14)
 
 ### Bug Fixes
