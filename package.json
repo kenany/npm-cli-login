@@ -4,7 +4,10 @@
   "description": "Fork of npm-cli-login",
   "author": "Postman Team <help@getpostman.com>",
   "license": "Apache-2.0",
-  "repository": "github:kenany/npm-cli-login",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenany/npm-cli-login.git"
+  },
   "publishConfig": {
     "access": "public",
     "provenance": true
@@ -14,7 +17,7 @@
   },
   "main": "index.js",
   "bin": {
-    "npm-cli-login": "./bin/npm-cli-login.js"
+    "npm-cli-login": "bin/npm-cli-login.js"
   },
   "files": [
     "bin",
