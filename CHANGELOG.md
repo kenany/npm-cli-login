@@ -1,3 +1,17 @@
+## [6.0.0](https://github.com/kenany/npm-cli-login/compare/v5.0.2...v6.0.0) (2026-06-04)
+
+### ⚠ BREAKING CHANGES
+
+* Node.js v20 is no longer supported.
+
+### Features
+
+* require Node.js v22.22.2 or greater ([8cfee1e](https://github.com/kenany/npm-cli-login/commit/8cfee1e95342a94a5bf114b46b55d71e5afb11cf))
+
+### Bug Fixes
+
+* **deps:** npm-profile@13.0.0 ([b0e53b6](https://github.com/kenany/npm-cli-login/commit/b0e53b6f1f85b84d8f55fb2901ec7087ae1e6311))
+
 ## [5.0.2](https://github.com/kenany/npm-cli-login/compare/v5.0.1...v5.0.2) (2026-01-20)
 
 ### Bug Fixes
