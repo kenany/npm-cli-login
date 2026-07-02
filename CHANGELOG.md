@@ -1,3 +1,9 @@
+## [6.0.1](https://github.com/kenany/npm-cli-login/compare/v6.0.0...v6.0.1) (2026-07-02)
+
+### Bug Fixes
+
+* **deps:** npm-profile@13.0.1 ([d5d1c29](https://github.com/kenany/npm-cli-login/commit/d5d1c2975955db54c6d2b595ed1b239120eb90da))
+
 ## [6.0.0](https://github.com/kenany/npm-cli-login/compare/v5.0.2...v6.0.0) (2026-06-04)
 
 ### ⚠ BREAKING CHANGES
