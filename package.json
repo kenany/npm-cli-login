@@ -39,6 +39,6 @@
     "chai": "6.2.2",
     "conventional-changelog-conventionalcommits": "10.2.1",
     "mocha": "11.7.6",
-    "semantic-release": "25.0.5"
+    "semantic-release": "25.0.6"
   }
 }
